@@ -372,7 +372,7 @@
       }
     });
 
-    $("#kernjs_textarea").live('click', function () {
+    $(document).("click","#kernjs_textarea", function () {
       $(this).focus();
       $(this).select();
     });
